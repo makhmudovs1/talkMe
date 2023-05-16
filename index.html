@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>main</title>
+</head>
+<body>
+<nav class="nav" id="nav">
+    <div class="container">
+        <div class="nav__block">
+            <div class="block">
+                <a href="about.html" class="logo">
+                    <img src="logo.svg" alt="" class="logo-img">
+                </a>
+                <nav class="menu">
+                    <a href="index.html">Главная</a>
+                    <a href="about.html">О нас</a>
+                    <a href="profile.html">Личный кабинет</a>
+                    <a href="contacts.html">Контакты</a>
+                </nav>
+            </div>
+            <div class="nav-balance">
+                <p class="nav-balance__text">
+                    Мой баланс
+                </p>
+                <strong class="nav-balance__count" id="nav-balance__count">
+                    12344 <img src="coin.svg" alt="" class="nav-coins">
+                </strong>
+            </div>
+            <div class="button">
+                <a href="#" class="nav-button">
+                    Вход
+                </a>
+            </div>
+        </div>
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me </label>
+                        <a href="#"> Forgot Password? </a>
+                    </div>
+                    <button type="submit" class="btn"> Login </button>
+                    <div class="login-register">
+                        <p> Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> I agree to terms </label>
+                    </div>
+                    <button type="submit" class="btn"> Register </button>
+                    <div class="login-register">
+                        <p> Already have an account? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="services" id="services">
+    <div class="container">
+        <div class="services-content">
+            <div class="services-content__items">
+                <a href="" class="services-content__button">
+                    Выйди в Live
+                </a>
+            </div>
+            <div class="services-content__items girl">
+                <a href="" class="services-content__button">
+                    Личный кабинет
+                </a>
+            </div>
+            <div class="services-content__items coins">
+                <a href="" class="services-content__button">
+                    Кошелек
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer" id="footer">
+    <div class="container">
+        <ul class="footer-menu">
+            <li class="li">
+                <a href="">
+                    О нас
+                </a>
+            </li>
+            <li class="li">
+                <a href="">
+                    Контакты
+                </a>
+            </li>
+            <li class="li">
+                <a href="">
+                    Правила использования
+                </a>
+            </li>
+            <li class="li">
+                <a href="">
+                    FAQ
+                </a>
+            </li>
+            <li class="li">
+                <a href="">
+                    Написать нам
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
